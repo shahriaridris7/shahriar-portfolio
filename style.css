@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+ font-family: "Open Sans", sans-serif;
+
+}
+header{
+    
+
+}
+
+nav{
+     display: flex;
+      max-width: 1200px;
+      margin :auto;
+    padding:  8px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    
+  font-weight: bolder;
+}
+.logo-r{
+    color: #fd6e0a;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.cmn-btn{
+ background-color:#fd6e0a;
+ padding: 8px 10px;
+ border-radius: 12px;
+ font-size: 20px;
+ color: white;
+ border: none;
+
+}
+nav ul li a {
+   text-decoration: none;
+}
